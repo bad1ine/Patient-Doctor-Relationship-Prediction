@@ -10,7 +10,7 @@
 
 ### 1.1 数据文件
 默认读取：
-- `患者筛选数据0110.xlsx`（header=2）
+- `内部验证数据集.xlsx`（header=2）
 
 并使用与训练流水线一致的索引配置：
 - `cat_indices / cont_indices / item_indices / target_index`
@@ -59,7 +59,7 @@ Notebook 前半段会执行与主流程一致的：
 
 ### 4.1 推荐：Jupyter Notebook
 1) 安装依赖  
-2) 将 `患者筛选数据0110.xlsx` 放到项目根目录（或修改路径）  
+2) 将 `内部验证数据集.xlsx` 放到项目根目录（或修改路径）  
 3) 从上到下顺序运行
 
 ### 4.2 依赖环境
